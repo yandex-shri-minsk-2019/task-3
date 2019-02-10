@@ -1,0 +1,51 @@
+.develop {
+    border: red 0.1px dashed;
+}
+
+.event {
+    padding: 0.3em;
+    margin: 0.1em;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.event .block-span {
+    margin: 0.1em;
+}
+
+.button-conteiner button {
+    margin: 0.1em;
+}
+
+.event .field-conteiner {
+    padding: 0;
+    width: 80%;
+}
+
+.block-span {
+    background-color: aquamarine;
+    border: solid darkgreen 1px;
+    border-radius: 5px;
+}
+
+.block-span .name {
+    margin-right: 0.2em;
+}
+
+.name::after {
+    content: ':';
+}
+
+.value {
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+span {
+    display: inline-block;
+    padding: 0.2em;
+}
+
+button {
+    border-radius: 4px;
+}
